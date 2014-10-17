@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+X-Nemo-Application-Type=silica-qt5
+Icon=screen-message
+Exec=screen-message
+Name=screen-message
+# translation example:
+# your app name in German locale (de)
+Name[de]=screen-message
+
