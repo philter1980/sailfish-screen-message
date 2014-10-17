@@ -38,7 +38,7 @@ ApplicationWindow
     cover: cover
 
     Component.onCompleted: {
-        thetext = ":-)"
+        thetext = ""
         pageStack.pushAttached(secondpage);
         state = "BOW"
     }
