@@ -21,7 +21,8 @@ OTHER_FILES += qml/screen-message.qml \
     rpm/screen-message.spec \
     rpm/screen-message.yaml \
     translations/*.ts \
-    screen-message.desktop
+    screen-message.desktop \
+    qml/js/settings.js
 
 # to disable building translations every time, comment out the
 # following CONFIG line

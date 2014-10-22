@@ -5,6 +5,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Oct 22 2014 Joachim Breitner <mail@joachim-breitner.de> 0.2-1
+- screen-message now remembers the message accorss program invocations
+
 * Fri Oct 17 2014 Joachim Breitner <mail@joachim-breitner.de> 0.1-1
 - Initial release
 

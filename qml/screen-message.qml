@@ -30,6 +30,7 @@
 
 import QtQuick 2.0
 import Sailfish.Silica 1.0
+import "js/settings.js" as S
 
 ApplicationWindow
 {
@@ -38,9 +39,10 @@ ApplicationWindow
     cover: cover
 
     Component.onCompleted: {
-        thetext = ""
-        pageStack.pushAttached(secondpage);
-        state = "BOW"
+        thetext = S.readSetting("text", "")
+        smText.cursorPosition = thetext.length
+        pageStack.pushAttached(secondpage)
+        state = S.readSetting("state", "BOW")
     }
 
     property string thetext;
@@ -63,6 +65,9 @@ ApplicationWindow
             PropertyChanges { target: menuitem; text: qsTr("Switch to Black on White")}
         }
     ]
+
+    onStateChanged: S.storeSetting("state", state)
+    onThetextChanged: S.storeSetting("text", thetext);
 
     Page {
         id: firstpage
