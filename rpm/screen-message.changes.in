@@ -5,6 +5,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Oct 22 2014 Joachim Breitner <mail@joachim-breitner.de> 0.2.1-1
+- Actually center the display. Thanks to objectifnul for the bug report.
+
 * Wed Oct 22 2014 Joachim Breitner <mail@joachim-breitner.de> 0.2-1
 - screen-message now remembers the message accorss program invocations
 

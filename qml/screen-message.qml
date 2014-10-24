@@ -137,6 +137,7 @@ ApplicationWindow
             text: thetext
             color: app.fgcolor
             font.pointSize: Theme.fontSizeExtraLarge
+            horizontalAlignment: Text.AlignHCenter
             // transformOrigin: Item.TopLeft
             scale: if (width > 0 && height > 0)
                    { Math.min(parent.width / width, parent.height / height) }
@@ -159,6 +160,7 @@ ApplicationWindow
             text: thetext
             color: app.fgcolor
             font.pointSize: Theme.fontSizeExtraLarge
+            horizontalAlignment: Text.AlignHCenter
             // transformOrigin: Item.TopLeft
             scale: if (width > 0 && height > 0)
                    { Math.min(parent.width / width, parent.height / height) }
