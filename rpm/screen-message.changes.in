@@ -5,6 +5,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Wed Oct 26 2014 Joachim Breitner <mail@joachim-breitner.de> 0.2-1
+- Show a hint on how to use the app
+
 * Wed Oct 22 2014 Joachim Breitner <mail@joachim-breitner.de> 0.2.1-1
 - Actually center the display. Thanks to objectifnul for the bug report.
 

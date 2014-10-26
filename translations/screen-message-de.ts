@@ -2,6 +2,13 @@
 <!DOCTYPE TS>
 <TS version="2.0">
 <context>
+    <name>ScreenMessageHint</name>
+    <message>
+        <source>Flick to display text</source>
+        <translation>Wische um den Text anzuzeigen</translation>
+    </message>
+</context>
+<context>
     <name>screen-message</name>
     <message>
         <source>Switch to White on Black</source>
