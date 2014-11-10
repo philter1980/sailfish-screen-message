@@ -9,7 +9,7 @@
     </message>
 </context>
 <context>
-    <name>screen-message</name>
+    <name>harbour-screen-message</name>
     <message>
         <source>Switch to White on Black</source>
         <translation type="unfinished"></translation>

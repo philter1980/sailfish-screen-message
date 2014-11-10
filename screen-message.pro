@@ -10,23 +10,25 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = screen-message
+TARGET = harbour-screen-message
 
 CONFIG += sailfishapp
 
-SOURCES += src/screen-message.cpp
+SOURCES += \
+    src/harbour-screen-message.cpp
 
-OTHER_FILES += qml/screen-message.qml \
-    rpm/screen-message.changes.in \
-    rpm/screen-message.spec \
-    rpm/screen-message.yaml \
+OTHER_FILES += \
     translations/*.ts \
-    screen-message.desktop \
     qml/js/settings.js \
-    qml/common/ScreenMessageHint.qml
+    qml/common/ScreenMessageHint.qml \
+    harbour-screen-message.desktop \
+    rpm/harbour-screen-message.changes.in \
+    rpm/harbour-screen-message.spec \
+    rpm/harbour-screen-message.yaml \
+    qml/harbour-screen-message.qml
 
 # to disable building translations every time, comment out the
 # following CONFIG line
 CONFIG += sailfishapp_i18n
-TRANSLATIONS += translations/screen-message-de.ts
+TRANSLATIONS += translations/harbour-screen-message-de.ts
 

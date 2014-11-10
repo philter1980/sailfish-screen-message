@@ -1,4 +1,4 @@
-Name: screen-message
+Name: harbour-screen-message
 Summary: Screen Message
 Version: 0.2.1
 Release: 1
@@ -11,7 +11,7 @@ Sources:
 - '%{name}-%{version}.tar.bz2'
 Description: |
   This app turns your phone into a signboard. You type some text, it displays it
-  as larges as possible, black on white (or white on blac, if you prefer), across
+  as large as possible, black on white (or white on black, if you prefer), across
   the whole screen.
 
   It is useful to send messages across a room, e.g. during an university lecture. Or

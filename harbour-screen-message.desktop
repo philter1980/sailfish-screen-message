@@ -1,10 +1,10 @@
 [Desktop Entry]
 Type=Application
 X-Nemo-Application-Type=silica-qt5
-Icon=screen-message
-Exec=screen-message
-Name=screen-message
+Icon=harbour-screen-message
+Exec=harbour-screen-message
+Name=Screen-Message
 # translation example:
 # your app name in German locale (de)
-Name[de]=screen-message
+Name[de]=Screen-Message
 
