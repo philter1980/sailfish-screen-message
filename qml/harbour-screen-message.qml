@@ -160,7 +160,7 @@ ApplicationWindow
 
         Label {
             anchors.centerIn: parent
-            text: thetext
+            text: thetext.length > 0 ? thetext : ":-)"
             color: app.fgcolor
             font.pointSize: Theme.fontSizeExtraLarge
             horizontalAlignment: Text.AlignHCenter

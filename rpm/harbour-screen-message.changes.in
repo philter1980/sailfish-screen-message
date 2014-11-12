@@ -5,6 +5,9 @@
 # * date Author's Name <author's email> version-release
 # - Summary of changes
 
+* Mon Nov 10 2014 Joachim Breitner <mail@joachim-breitner.de> 0.3.1-1
+- When nothing is entered, show a smiley in the cover
+
 * Mon Nov 10 2014 Joachim Breitner <mail@joachim-breitner.de> 0.3-1
 - Show a hint on how to use the app
 - Add the harbour- prefix to everything
